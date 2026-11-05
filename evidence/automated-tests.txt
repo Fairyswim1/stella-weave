@@ -2,42 +2,42 @@ TAP version 13
 # Subtest: independent exhaustive assignment solver proves every campaign reachable
 ok 1 - independent exhaustive assignment solver proves every campaign reachable
   ---
-  duration_ms: 5.2379
+  duration_ms: 5.2673
   ...
 # Subtest: early greedy works in intro but fails in every later round
 ok 2 - early greedy works in intro but fails in every later round
   ---
-  duration_ms: 0.6355
+  duration_ms: 0.6141
   ...
 # Subtest: resource and recovery choice changes later availability and preserves attempts
 ok 3 - resource and recovery choice changes later availability and preserves attempts
   ---
-  duration_ms: 0.3262
+  duration_ms: 0.3594
   ...
 # Subtest: failed below-target and over-budget decisions do not corrupt resources
 ok 4 - failed below-target and over-budget decisions do not corrupt resources
   ---
-  duration_ms: 0.1984
+  duration_ms: 0.2116
   ...
 # Subtest: negative square, parentheses, halves and exact arithmetic
 ok 5 - negative square, parentheses, halves and exact arithmetic
   ---
-  duration_ms: 16.2817
+  duration_ms: 16.0547
   ...
 # Subtest: all new assessment tasks check correct, wrong and blank responses
 ok 6 - all new assessment tasks check correct, wrong and blank responses
   ---
-  duration_ms: 0.5429
+  duration_ms: 0.4249
   ...
 # Subtest: first wrong, hint and retries can never become independent evidence
 ok 7 - first wrong, hint and retries can never become independent evidence
   ---
-  duration_ms: 2.2776
+  duration_ms: 2.1387
   ...
 # Subtest: practice leaves progress and assessment untouched, completion enables normal play
 ok 8 - practice leaves progress and assessment untouched, completion enables normal play
   ---
-  duration_ms: 0.4402
+  duration_ms: 0.405
   ...
 1..8
 # tests 8
@@ -47,4 +47,4 @@ ok 8 - practice leaves progress and assessment untouched, completion enables nor
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 138.4152
+# duration_ms 139.4225

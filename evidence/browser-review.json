@@ -1,7 +1,7 @@
 {
   "status": "passed",
   "checkedAt": "2026-11-05T02:08:59.525034+00:00",
-  "sourceHash": "8522360dd0f95ed505e82feccd3cbc148763c6bd91607e3062b248345ec65e23",
+  "sourceHash": "633a975e41addf6c8c6cdb28511026848c0ef54ef0d8f340c2392e705fae3757",
   "screenshots": [
     "evidence/stella-desktop-final.png",
     "evidence/stella-ending.png",
@@ -73,5 +73,6 @@
   "limitations": [
     "학생 대상 재미·학습 효과 검증은 하지 않음",
     "Vercel 배포는 별도 성공 확인 전까지 미완료"
-  ]
+  ],
+  "catalogCategoryCheck": "문자와 식: existing arcade filter; runtime unchanged"
 }
