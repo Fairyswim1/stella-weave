@@ -1,0 +1,42 @@
+{
+  "title": "별실을 엮는 밤",
+  "origin": "Original synthesized stereo compositions; no third-party samples",
+  "profile": {
+    "title": "별실을 엮는 밤",
+    "root": 64,
+    "bpm": 68,
+    "color": "celesta",
+    "minor": true,
+    "motif": [
+      7,
+      12,
+      14,
+      10,
+      7,
+      3,
+      5,
+      0
+    ]
+  },
+  "generator": "scripts/compose-music.py",
+  "tracks": [
+    {
+      "mode": "focus",
+      "bpm": 68,
+      "seconds": 56.470566893424035,
+      "peak": 0.26271889366639556,
+      "rms": 0.06147937859275251,
+      "seamDelta": 0.00517282557796786,
+      "sha256": "5bce9ddcb5e9647699f8a4e782622be68e5ec66c84802c880e181c74638652a2"
+    },
+    {
+      "mode": "energy",
+      "bpm": 92,
+      "seconds": 41.73913832199546,
+      "peak": 0.35835952722748804,
+      "rms": 0.07955067952194356,
+      "seamDelta": 0.0023962756528539755,
+      "sha256": "d3761f6003923f74b93a071b5b62b22c570709b71489d3f03d0aac976b2bf70e"
+    }
+  ]
+}
