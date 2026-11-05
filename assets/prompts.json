@@ -1,0 +1,38 @@
+[
+  {
+    "name": "background",
+    "prompt": "Polished hand-painted fantasy board game asset for a Korean middle-school mathematics game, celestial weaving atelier, deep midnight indigo, muted periwinkle, warm antique gold, ivory silk, tactile painted wood and brass, warm storybook illustration, refined and readable, NO text, NO numbers, NO letters, NO watermark. Wide landscape illustration of a cozy magical observatory weaving workshop at night, arched window star sky, shelves of glowing silk spools at edges, large dark calm central area for game board, painterly depth, not photorealistic.",
+    "transparent": false,
+    "tool": "built-in image_gen"
+  },
+  {
+    "name": "button",
+    "prompt": "Polished hand-painted fantasy board game asset for a Korean middle-school mathematics game, celestial weaving atelier, deep midnight indigo, muted periwinkle, warm antique gold, ivory silk, tactile painted wood and brass, warm storybook illustration, refined and readable, NO text, NO numbers, NO letters, NO watermark. Single horizontal wide beveled ivory silk button plaque framed in slim antique brass and tiny indigo silk ribbon knots at ends. Large flat blank ivory center taking 75 percent of width for code-rendered text. Isolated front view, transparent surroundings, aspect 4:1.",
+    "transparent": true,
+    "tool": "built-in image_gen"
+  },
+  {
+    "name": "card",
+    "prompt": "Polished hand-painted fantasy board game asset for a Korean middle-school mathematics game, celestial weaving atelier, deep midnight indigo, muted periwinkle, warm antique gold, ivory silk, tactile painted wood and brass, warm storybook illustration, refined and readable, NO text, NO numbers, NO letters, NO watermark. One vertical spool-shaped game card: carved golden wooden top and bottom spindle, glowing ivory silk wound between, tiny blue gem on upper flange, very broad blank pale rectangular center for large mathematical formula overlay. Transparent surroundings, front view, no perspective, aspect 4:5.",
+    "transparent": true,
+    "tool": "built-in image_gen"
+  },
+  {
+    "name": "badge",
+    "prompt": "Polished hand-painted fantasy board game asset for a Korean middle-school mathematics game, celestial weaving atelier, deep midnight indigo, muted periwinkle, warm antique gold, ivory silk, tactile painted wood and brass, warm storybook illustration, refined and readable, NO text, NO numbers, NO letters, NO watermark. One round constellation medal for round selection, antique brass filigree rim, solid dark indigo circular center blank for a large number, small hanging silk tassel underneath. Isolated front view, transparent surroundings.",
+    "transparent": true,
+    "tool": "built-in image_gen"
+  },
+  {
+    "name": "guide",
+    "prompt": "Polished hand-painted fantasy board game asset for a Korean middle-school mathematics game, celestial weaving atelier, deep midnight indigo, muted periwinkle, warm antique gold, ivory silk, tactile painted wood and brass, warm storybook illustration, refined and readable, NO text, NO numbers, NO letters, NO watermark. Adorable small silver-blue moth apprentice with fluffy collar and gold spectacles, holding a miniature weaving shuttle, friendly expressive eyes, full body with wings contained in frame, isolated transparent background.",
+    "transparent": true,
+    "tool": "built-in image_gen"
+  },
+  {
+    "name": "reward",
+    "prompt": "Polished hand-painted fantasy board game asset for a Korean middle-school mathematics game, celestial weaving atelier, deep midnight indigo, muted periwinkle, warm antique gold, ivory silk, tactile painted wood and brass, warm storybook illustration, refined and readable, NO text, NO numbers, NO letters, NO watermark. One exquisite glowing woven star-shaped tapestry medallion, shimmering ivory silk and violet celestial patterns, six pointed textile star with gold woven edge and small tassels, isolated transparent background. Collectible game reward.",
+    "transparent": true,
+    "tool": "built-in image_gen"
+  }
+]

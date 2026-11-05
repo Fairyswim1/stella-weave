@@ -1,0 +1,38 @@
+{
+  "game": "stella-weave",
+  "version": "2026.11.05.1",
+  "source": {
+    "title": "교육부 고시 제2022-33호 [별책8] 수학과 교육과정",
+    "sha256": "a11706f7c7a8e0aa650a4d08549895ff10f7920b1bee7b2c2f4ce79ad3795ac8"
+  },
+  "standards": [
+    {
+      "code": "9수02-01",
+      "text": "다양한 상황을 문자를 사용한 식으로 나타내어 그 유용성을 인식하고, 식의 값을 구할 수 있다.",
+      "studentSummary": "상황을 문자식으로 나타내고 음수·분수를 대입해 식의 값 구하기",
+      "page": 40,
+      "printedPage": 34,
+      "skills": {
+        "model": "수량 관계를 ax+b로 표현",
+        "notation": "곱셈·나눗셈 기호 생략 해석",
+        "evaluate": "음수·분수를 대입하여 계산",
+        "compare": "여러 x에서 식의 값 비교 및 사용"
+      },
+      "explain": "x가 달라지면 두 식의 크기 순서가 바뀌는 이유를 대입 예로 설명하고, 한 식으로 여러 경우를 나타내는 편리함을 적는다.",
+      "rubric": "변수의 의미와 단위 / 관계를 정확히 식으로 표현 / 음수 괄호·제곱·분수 계산 / 두 식 모두 대입 / 유용성을 실제 수의 예와 연결. 설명은 자동 채점하지 않고 함께 읽는 검토에 보존.",
+      "limit": "ax+b 꼴의 상황과 간단한 한 문자 식의 대입을 표본으로 확인한다. 여러 문자 식과 복잡한 표현 전체는 미확인. 각 요소별 서로 다른 과제 2개의 무도움 첫 성공은 참고 증거이며 공식 이수 판정이 아니다."
+    }
+  ],
+  "recording": [
+    "first response",
+    "wrong answer",
+    "retry",
+    "hint",
+    "elapsedMs",
+    "explanation",
+    "review",
+    "readable HTML export"
+  ],
+  "independentRule": "같은 문항 재시도·힌트 사용은 독립 수행으로 세지 않는다.",
+  "officialCompletion": false
+}

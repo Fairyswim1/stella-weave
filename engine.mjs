@@ -1,0 +1,9 @@
+export const value=(c,x)=>c.q*x*x+c.a*x+c.b;
+export function start(l){return {turn:0,left:l.budget,used:[],history:[],attempts:0,feedback:''}}
+export function play(l,s,index){if(s.turn>=l.orders.length||!Number.isInteger(index)||!l.cards[index]||s.used.includes(index))return{...s,feedback:'지금 쓸 수 없는 실타래예요.'};const o=l.orders[s.turn],c=l.cards[index],v=value(c,o.x),base={...s,attempts:s.attempts+1};if(v<o.need)return{...base,feedback:`이 식의 값은 ${v}. 필요한 빛 ${o.need}보다 작아요. 다른 실타래를 골라요.`};if(v>s.left)return{...base,feedback:`빛 ${v}가 필요하지만 ${s.left}만 남았어요. 한 수 전으로 돌아가 볼까요?`};return{...base,turn:s.turn+1,left:s.left-v,used:[...s.used,index],history:[...s.history,{index,x:o.x,value:v,need:o.need}],feedback:`${v}의 빛으로 별을 엮었어요. ${v-o.need}만큼 여유 있게 사용했어요.`}}
+export function undo(l,s){if(!s.used.length)return s;let t=start(l);for(const i of s.used.slice(0,-1))t=play(l,t,i);return{...t,attempts:s.attempts,feedback:'실타래와 빛을 돌려받았어요.'}}
+export const won=(l,s)=>s.turn===l.orders.length;
+export function moves(l,s){if(won(l,s))return[];const o=l.orders[s.turn];return l.cards.map((c,i)=>({i,v:value(c,o.x)})).filter(z=>!s.used.includes(z.i)&&z.v>=o.need&&z.v<=s.left)}
+export function optimum(l,turn=0,used=0,memo=new Map()){if(turn===l.orders.length)return{cost:0,path:[]};const key=turn+':'+used;if(memo.has(key))return memo.get(key);let best={cost:Infinity,path:[]},o=l.orders[turn];for(let i=0;i<l.cards.length;i++){if(used&(1<<i))continue;const v=value(l.cards[i],o.x);if(v<o.need)continue;const tail=optimum(l,turn+1,used|(1<<i),memo);if(v+tail.cost<best.cost)best={cost:v+tail.cost,path:[i,...tail.path]}}memo.set(key,best);return best}
+export function continuation(l,s){return optimum(l,s.turn,s.used.reduce((n,i)=>n|(1<<i),0))}
+export function greedy(l,high=false){let s=start(l);while(!won(l,s)){const choices=moves(l,s).sort((a,b)=>high?b.v-a.v:a.v-b.v);if(!choices.length)return s;s=play(l,s,choices[0].i)}return s}

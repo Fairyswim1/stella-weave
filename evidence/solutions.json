@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "cost": 6,
+    "path": [
+      0,
+      1
+    ],
+    "greedyWins": true,
+    "largestWins": false
+  },
+  {
+    "id": 2,
+    "cost": 13,
+    "path": [
+      1,
+      0
+    ],
+    "greedyWins": false,
+    "largestWins": false
+  },
+  {
+    "id": 3,
+    "cost": 9,
+    "path": [
+      1,
+      5,
+      0
+    ],
+    "greedyWins": false,
+    "largestWins": false
+  },
+  {
+    "id": 4,
+    "cost": 19,
+    "path": [
+      1,
+      5,
+      3
+    ],
+    "greedyWins": false,
+    "largestWins": false
+  },
+  {
+    "id": 5,
+    "cost": 10,
+    "path": [
+      3,
+      2,
+      1
+    ],
+    "greedyWins": false,
+    "largestWins": false
+  },
+  {
+    "id": 6,
+    "cost": 11,
+    "path": [
+      6,
+      5,
+      4
+    ],
+    "greedyWins": false,
+    "largestWins": false
+  },
+  {
+    "id": 7,
+    "cost": 26,
+    "path": [
+      5,
+      1,
+      0,
+      3
+    ],
+    "greedyWins": false,
+    "largestWins": false
+  },
+  {
+    "id": 8,
+    "cost": 25,
+    "path": [
+      5,
+      4,
+      0,
+      3
+    ],
+    "greedyWins": false,
+    "largestWins": false
+  },
+  {
+    "id": 9,
+    "cost": 14.5,
+    "path": [
+      0,
+      5,
+      1,
+      3
+    ],
+    "greedyWins": false,
+    "largestWins": false
+  },
+  {
+    "id": 10,
+    "cost": 31,
+    "path": [
+      4,
+      6,
+      1,
+      0,
+      5
+    ],
+    "greedyWins": false,
+    "largestWins": false
+  },
+  {
+    "id": 11,
+    "cost": 21,
+    "path": [
+      4,
+      1,
+      2,
+      0,
+      5
+    ],
+    "greedyWins": false,
+    "largestWins": false
+  },
+  {
+    "id": 12,
+    "cost": 22.75,
+    "path": [
+      0,
+      4,
+      7,
+      2,
+      6,
+      3
+    ],
+    "greedyWins": false,
+    "largestWins": false
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "title": "스텔라 위브",
+  "goal": "실타래의 식에 x를 넣어 빛을 만들고, 한정된 빛으로 모든 별을 엮는다.",
+  "actions": [
+    "실타래 고르기",
+    "이 실로 엮기",
+    "한 수 전으로 복구"
+  ],
+  "candidates": [
+    {
+      "game": "For Sale",
+      "url": "https://iellogames.com/wp-content/uploads/2020/07/For-Sale_Rulebook_EN_V2.pdf",
+      "core": "손의 카드 한 장을 선택해 사용하고 후속 판매를 위해 다른 카드를 보존한다.",
+      "decision": "선택: 일회성 카드의 현재 가치와 미래 가치를 비교하는 구조를 가져온다.",
+      "adaptation": "경매와 경쟁은 제거. 고정 숫자 대신 x에 따라 값이 달라지는 문자식, 순서가 공개된 목표와 총 빛 예산을 사용."
+    },
+    {
+      "game": "Splendor",
+      "url": "https://cdn.svc.asmodee.net/production-spacecowboys/uploads/2025/10/SCSPL01EN_SPLENDOR_RULES_LIGHT.pdf",
+      "core": "자원을 모아 카드 비용을 내고 이후 구매를 계획한다.",
+      "decision": "보조 참고: 전체 자원을 아끼는 선택. 여러 색 자원과 할인 엔진은 학생 규칙을 늘리므로 제외."
+    },
+    {
+      "game": "Kingdomino",
+      "url": "https://blueorangegames.eu/wp-content/uploads/2023/04/Kingdomino-Rules-EN.pdf",
+      "core": "타일 선택이 배치와 다음 선택 순서에 영향을 준다.",
+      "decision": "보류: 공간 배치와 문자식 대입을 함께 강요하면 초점이 흐려짐."
+    }
+  ],
+  "mathCoupling": "값은 카드에 미리 계산해 보여주지 않는다. 선택한 식의 값이 주문 충족과 빛 소비, 이후 사용 가능한 카드에 직접 영향을 준다. 계산 과정은 행동 결과로 확인한다.",
+  "decisions": [
+    "지금 주문을 만족시키되 다음 주문에 유일하게 필요한 식을 보존",
+    "x의 부호·크기·분수에 따라 달라지는 식의 상대적 가치",
+    "현재 최소 소비와 전체 최소 소비를 구별"
+  ],
+  "difficultyEvidence": "evidence/solutions.json 및 tests/engine.test.mjs: 2~12라운드에서 최소 즉시비용 전략이 실패하고 완주 해는 존재. 3~12에서는 최대값 우선도 실패.",
+  "resourceTimeTradeoff": "게임 속 차례는 주문 하나를 처리하는 단위이며 현실 시간 제한이 아니다. 빛이 더 적게 드는 현재 선택이 뒤에서 재도전을 유발한다. 한 수 전은 자원을 돌려주되 시도 횟수를 보존한다.",
+  "rounds": 12,
+  "progression": [
+    "새벽의 실: 대입, 다음 식 보존, 예산, 순위 역전",
+    "달빛의 실: 0, 음수, 괄호, 제곱",
+    "별자리의 실: 분수와 장기 계획의 결합"
+  ],
+  "rewards": "라운드마다 직물 1개, 12개 모으면 별빛 엔딩. 기록은 기기에 자동 저장.",
+  "tutorial": "독립 연습 저장소로 직접 2장의 실을 사용해 첫 승리. 건너뛰기·재시작·키보드·390px 검증.",
+  "funHypothesis": "조용히 미래 주문을 내다보고 역전되는 식의 가치를 찾는 발견과 복구의 재미. 학생 대상 검증 전이며 학습 효과·재미를 확정하지 않는다.",
+  "assetGeneration": {
+    "tool": "built-in image_gen",
+    "count": 6,
+    "prompts": "assets/prompts.json"
+  }
+}

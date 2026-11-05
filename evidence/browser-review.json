@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-11-05T02:08:59.525034+00:00",
+  "sourceHash": "8522360dd0f95ed505e82feccd3cbc148763c6bd91607e3062b248345ec65e23",
+  "screenshots": [
+    "evidence/stella-desktop-final.png",
+    "evidence/stella-ending.png",
+    "evidence/stella-mobile-final.png",
+    "evidence/stella-mobile-tutorial.png",
+    "evidence/stella-assessment-mobile.png"
+  ],
+  "campaign": {
+    "rounds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "method": "Chrome UI: each solution played by actual card click and weave click; every win banner observed",
+    "independentSolver": true,
+    "ending": true,
+    "persistence": true,
+    "failureRecovery": "Round 2 card A spends 3 then no continuation; undo restores all 13; correct B,A completes.",
+    "keyboard": true
+  },
+  "tutorial": {
+    "desktopFirstWin": true,
+    "mobileFirstWin": true,
+    "skip": true,
+    "replay": true,
+    "progressPreserved": "12 collected rewards survived mobile practice and skip",
+    "isolatedStorage": true
+  },
+  "typography": {
+    "status": "passed",
+    "mobileWidth": 390,
+    "clientWidth": 374,
+    "scrollWidth": 374,
+    "fonts": [
+      "Jua",
+      "Do Hyeon",
+      "Gowun Dodum"
+    ],
+    "math": "KaTeX; all spool formulas and mobile fractions fit; current x enlarged after visual review"
+  },
+  "assessment": {
+    "codes": [
+      "9수02-01"
+    ],
+    "independent": true,
+    "hint": true,
+    "retry": true,
+    "persistence": true,
+    "report": true,
+    "mobile": true,
+    "export": true,
+    "jsonUiRemoved": true,
+    "evidence": "All 8 tasks submitted correctly in new profile; original profile retains first wrong plus hinted retry, zero independent count; four skills show 2/2 in independent profile. Explanation/review persisted after reload; downloaded readable HTML inspected. Latest UI displays elapsed seconds and first/retry."
+  },
+  "audio": {
+    "signalTest": true,
+    "result": "WebAudio analyser test reports signal, actual speaker audibility not claimed"
+  },
+  "consoleErrors": [],
+  "limitations": [
+    "학생 대상 재미·학습 효과 검증은 하지 않음",
+    "Vercel 배포는 별도 성공 확인 전까지 미완료"
+  ]
+}

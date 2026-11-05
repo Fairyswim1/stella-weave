@@ -1,0 +1,47 @@
+{
+  "visualReview": true,
+  "references": [
+    {
+      "filename": "미래엔_중학교수학1_교과서_3-1_문자의사용과식의값.pdf",
+      "sha256": "cdb9a89713bbdf7c2784283d90237c547bc8a91db28808685f56cc2736cb9085",
+      "pdfPages": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "printedPages": [
+        74,
+        75,
+        76,
+        77,
+        78
+      ],
+      "visualPage": 7,
+      "internalReview": "curriculum/stella-source-7.png",
+      "concepts": [
+        "수량 관계를 문자로 나타내기",
+        "곱셈·나눗셈 기호의 생략",
+        "음수·분수를 대입하여 식의 값 구하기"
+      ],
+      "prerequisites": [
+        "유리수의 사칙계산",
+        "거듭제곱과 계산 순서"
+      ],
+      "misconceptions": [
+        "2x를 2+x로 읽음",
+        "음수를 대입할 때 부호 오류",
+        "x의 값이 바뀌어도 큰 식은 항상 같다고 판단"
+      ]
+    }
+  ],
+  "curriculumCommentary": {
+    "pages": [
+      42,
+      43
+    ],
+    "finding": "9수02-01만의 별도 해설은 없으며 영역 고려 사항의 문자 유용성과 말·표·식의 상호 변환, 지나치게 복잡한 활용 지양을 적용."
+  },
+  "sourceFilesDistributed": false
+}

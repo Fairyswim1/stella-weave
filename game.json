@@ -1,0 +1,48 @@
+{
+  "id": "stella-weave",
+  "title": "스텔라 위브",
+  "subtitle": "식으로 엮는 별빛",
+  "grade": 1,
+  "unit": "3-1 문자의 사용과 식의 값",
+  "category": "변화와 관계",
+  "version": "1.0.0",
+  "description": "매번 바뀌는 x를 식에 넣어 필요한 빛을 만들어요. 실타래 하나를 고를 때 지금 쓸 빛과 다음에 남길 식을 함께 생각하며, 12개의 별빛 직물을 모으는 자원 배분 퍼즐입니다.",
+  "tags": [
+    "문자와 식",
+    "대입",
+    "다음 선택 계획"
+  ],
+  "duration": "20–35분",
+  "assets": [
+    "assets/background.png",
+    "assets/button.png",
+    "assets/card.png",
+    "assets/badge.png",
+    "assets/guide.png",
+    "assets/reward.png"
+  ],
+  "generatedRoles": {
+    "background": "assets/background.png",
+    "controls": "assets/button.png",
+    "interactiveProp": "assets/card.png",
+    "roundNavigation": "assets/badge.png",
+    "character": "assets/guide.png",
+    "reward": "assets/reward.png"
+  },
+  "obstacles": "한 번만 쓰는 실타래와 한정된 빛. 앞 주문을 통과한 선택이 뒤 주문을 막을 수 있다.",
+  "campaign": {
+    "rounds": 12,
+    "collectibles": 12,
+    "ending": true
+  },
+  "tutorial": {
+    "firstVisit": true,
+    "spotlight": true,
+    "actualSuccess": true,
+    "skippable": true,
+    "replay": true,
+    "isolated": true
+  },
+  "repository": "https://github.com/Fairyswim1/stella-weave",
+  "repositoryStatus": "created"
+}
