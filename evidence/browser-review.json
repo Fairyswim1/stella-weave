@@ -1,13 +1,14 @@
 {
   "status": "passed",
   "checkedAt": "2026-11-05T02:08:59.525034+00:00",
-  "sourceHash": "68b5ced1041260fe4d0cd08b634b27ba5a836427092a79b9074a00016a5de45f",
+  "sourceHash": "50a1633060f8f0b74fcd10e9addd5eabaa66e5d18de9cbf08b90ab5f06091ad8",
   "screenshots": [
     "evidence/stella-desktop-final.png",
     "evidence/stella-ending.png",
     "evidence/stella-mobile-final.png",
     "evidence/stella-mobile-tutorial.png",
-    "evidence/stella-assessment-mobile.png"
+    "evidence/stella-assessment-mobile.png",
+    "evidence/first-visit-mobile.png"
   ],
   "campaign": {
     "rounds": [
@@ -95,5 +96,18 @@
     "musicMenuInBounds": true,
     "consoleErrors": [],
     "scope": "Audio-only change. Previous full gameplay/assessment verification retained; all automated gameplay tests rerun."
+  },
+  "firstVisitRevision": {
+    "checkedAt": "2026-11-06T04:45:03.809Z",
+    "id": "stella-weave",
+    "firstVisitOff": true,
+    "startedStep": "x를 수로 바꾸어요",
+    "skipCleanUrl": true,
+    "reloadNoTour": true,
+    "replay": true,
+    "keyboardEscape": true,
+    "mobileWidth": 390,
+    "previousSourceHash": "68b5ced1041260fe4d0cd08b634b27ba5a836427092a79b9074a00016a5de45f",
+    "scope": "First-visit decision, isolated tutorial initialization, exit/reload and replay. Prior math and assessment browser evidence retained; existing automated suites rerun."
   }
 }

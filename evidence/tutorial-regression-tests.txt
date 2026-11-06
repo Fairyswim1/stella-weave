@@ -1,0 +1,145 @@
+TAP version 13
+# Subtest: independent exhaustive assignment solver proves every campaign reachable
+ok 1 - independent exhaustive assignment solver proves every campaign reachable
+  ---
+  duration_ms: 5.1079
+  ...
+# Subtest: early greedy works in intro but fails in every later round
+ok 2 - early greedy works in intro but fails in every later round
+  ---
+  duration_ms: 0.6709
+  ...
+# Subtest: resource and recovery choice changes later availability and preserves attempts
+ok 3 - resource and recovery choice changes later availability and preserves attempts
+  ---
+  duration_ms: 0.2788
+  ...
+# Subtest: failed below-target and over-budget decisions do not corrupt resources
+ok 4 - failed below-target and over-budget decisions do not corrupt resources
+  ---
+  duration_ms: 0.1932
+  ...
+# Subtest: negative square, parentheses, halves and exact arithmetic
+ok 5 - negative square, parentheses, halves and exact arithmetic
+  ---
+  duration_ms: 17.1691
+  ...
+# Subtest: all new assessment tasks check correct, wrong and blank responses
+ok 6 - all new assessment tasks check correct, wrong and blank responses
+  ---
+  duration_ms: 0.4669
+  ...
+# Subtest: first wrong, hint and retries can never become independent evidence
+ok 7 - first wrong, hint and retries can never become independent evidence
+  ---
+  duration_ms: 2.6612
+  ...
+# Subtest: practice leaves progress and assessment untouched, completion enables normal play
+ok 8 - practice leaves progress and assessment untouched, completion enables normal play
+  ---
+  duration_ms: 0.669
+  ...
+# Subtest: music starts only after explicit play; loops and resumes without resetting position
+ok 9 - music starts only after explicit play; loops and resumes without resetting position
+  ---
+  duration_ms: 1.5343
+  ...
+# Subtest: mode change preserves playing state and writes only preferences
+ok 10 - mode change preserves playing state and writes only preferences
+  ---
+  duration_ms: 2.0225
+  ...
+# Subtest: saved mode and volume load without autoplay
+ok 11 - saved mode and volume load without autoplay
+  ---
+  duration_ms: 0.2555
+  ...
+# Subtest: invalid preferences and modes cannot select arbitrary sources
+ok 12 - invalid preferences and modes cannot select arbitrary sources
+  ---
+  duration_ms: 0.2365
+  ...
+# Subtest: blocked playback exposes recovery without claiming playback
+ok 13 - blocked playback exposes recovery without claiming playback
+  ---
+  duration_ms: 0.2533
+  ...
+# Subtest: pause cancels a pending play state update
+ok 14 - pause cancels a pending play state update
+  ---
+  duration_ms: 0.2201
+  ...
+# Subtest: older play completion cannot silence the newer request
+ok 15 - older play completion cannot silence the newer request
+  ---
+  duration_ms: 0.2424
+  ...
+# Subtest: muted effects never start; enable, play and mute stop active oscillators
+ok 16 - muted effects never start; enable, play and mute stop active oscillators
+  ---
+  duration_ms: 2.2851
+  ...
+# Subtest: preference survives new controller and test checks a generated waveform
+ok 17 - preference survives new controller and test checks a generated waveform
+  ---
+  duration_ms: 85.0233
+  ...
+# Subtest: blocked playback returns an error instead of falsely reporting enabled sound
+ok 18 - blocked playback returns an error instead of falsely reporting enabled sound
+  ---
+  duration_ms: 0.4835
+  ...
+# Subtest: muting while resume is pending cannot re-enable playback
+ok 19 - muting while resume is pending cannot re-enable playback
+  ---
+  duration_ms: 0.2807
+  ...
+# Subtest: unavailable storage does not prevent sound playback
+ok 20 - unavailable storage does not prevent sound playback
+  ---
+  duration_ms: 0.3972
+  ...
+# Subtest: first visit always starts, including an old shared off URL
+ok 21 - first visit always starts, including an old shared off URL
+  ---
+  duration_ms: 1.359
+  ...
+# Subtest: opening, abandoning, and refreshing do not mark the guide finished
+ok 22 - opening, abandoning, and refreshing do not mark the guide finished
+  ---
+  duration_ms: 0.8202
+  ...
+# Subtest: completion and explicit skip persist per game, with a clean shareable URL
+ok 23 - completion and explicit skip persist per game, with a clean shareable URL
+  ---
+  duration_ms: 2.641
+  ...
+# Subtest: old valid completion is preserved; corrupt or started records do not skip
+ok 24 - old valid completion is preserved; corrupt or started records do not skip
+  ---
+  duration_ms: 0.5028
+  ...
+# Subtest: replay and practice never overwrite campaign or assessment records
+ok 25 - replay and practice never overwrite campaign or assessment records
+  ---
+  duration_ms: 0.2846
+  ...
+# Subtest: blocked local storage uses session completion without a redirect loop
+ok 26 - blocked local storage uses session completion without a redirect loop
+  ---
+  duration_ms: 0.3822
+  ...
+# Subtest: both storage APIs blocked: same-tab history survives reload but shared URL does not skip
+ok 27 - both storage APIs blocked: same-tab history survives reload but shared URL does not skip
+  ---
+  duration_ms: 0.3664
+  ...
+1..27
+# tests 27
+# suites 0
+# pass 27
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 236.0722
